@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "/src/styles/login.css"; // Reuse same styling
-import logo1 from "/src/images/logo1.png";
-import logo from "/src/images/logo.png";
+import "../styles/login.css"; // Reuse same styling
+import logo1 from "../images/logo1.png";
+import logo from "../images/logo.png";
 
 const Login = () => {
   const navigate = useNavigate();

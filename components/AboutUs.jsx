@@ -1,5 +1,5 @@
 import React from "react";
-import "/src/styles/AboutUs.css";
+import "../styles/AboutUs.css";
 // import team1 from "/src/images/team1.jpg";
 // import team2 from "/src/images/team2.jpg";
 
@@ -7,7 +7,8 @@ const AboutUs = () => {
   return (
     <main className="about-page">
       {/* HERO / INTRO */}
-      <section className="about-hero">
+      <section className
+      ="about-hero">
         <div className="hero-inner">
           <h1>About Lifera</h1>
           <p>

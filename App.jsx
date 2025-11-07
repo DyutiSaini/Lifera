@@ -32,13 +32,14 @@
 
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "/src/components/Navbar";
-import Center from "/src/components/Center";
-import Register from "/src/components/Register";
-import Login from "/src/components/Login";
+import Navbar from "./components/Navbar";
+import Center from "./components/Center";
+import Register from "./components/Register";
+import Login from "./components/Login";
 import "./App.css";
 import AboutUs from "./components/AboutUs";
 import ContactUs from "./components/ContactUs";
+import Donate from "./components/donate";
 
 const App = () => {
   return (
@@ -63,7 +64,7 @@ const App = () => {
             element={<h2>Community Page Coming Soon</h2>}
           />
           <Route path="/contact" element={<ContactUs />} />
-          <Route path="/donate" element={<h2>Donate Page Coming Soon</h2>} />
+          <Route path="/donate" element={<Donate/>} />
           <Route path="/find" element={<h2>Find Page Coming Soon</h2>} />
           <Route path="/more" element={<h2>More Page Coming Soon</h2>} />
         </Routes>
